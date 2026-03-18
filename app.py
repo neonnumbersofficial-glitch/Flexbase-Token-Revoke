@@ -134,7 +134,7 @@ async def process_logout(access_token: str = Query(..., description="Garena Acce
             game_data.timestamp = "2024-12-05 18:15:32"
             game_data.game_name = "free fire"
             game_data.game_version = 1
-            game_data.version_code = "1.108.3"
+            game_data.version_code = "1.120.1"
             game_data.os_info = "Android OS 9 / API-28"
             game_data.device_type = "Handheld"
             game_data.network_provider = "Verizon Wireless"
