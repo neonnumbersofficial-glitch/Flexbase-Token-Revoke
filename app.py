@@ -126,7 +126,7 @@ async def process_logout(access_token: str = Query(..., description="Garena Acce
             "Expect": "100-continue",
             "X-Unity-Version": "2018.4.11f1",
             "X-GA": "v1 1",
-            "ReleaseVersion": "OB53"
+            "ReleaseVersion": "OB52"
         }
 
         for platform_type in platforms:
@@ -201,8 +201,8 @@ async def process_logout(access_token: str = Query(..., description="Garena Acce
             "region": decoded_token.get("lock_region", "N/A"),
             "platform": p_name,
             "open_id": open_id,
-            "Credit": "@Flexbasei",
-            "Power By": "@spideerio_yt"
+            "Credit": "@EXUCODER1",
+            "Power By": "@EXUCODER1"
         }
 
 if __name__ == '__main__':
